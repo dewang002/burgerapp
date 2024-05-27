@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="h-[100vh] w-[100vw] bg-[#020E63] sm:overflow-hidden sm:pl-[10vw] sm:pr-[10vw]">
+      <nav
+        class="h-[10%] sm:h-[6%] w-full sm:w-[100%] mx-auto grid grid-cols-12 rounded items-center justify-between gap-3 relative"
+      >
+        <div
+          class="left h-full w-full col-span-6 flex items-center text-white font-semibold text-3xl justify-start p-2"
+        >
+          BUR <span class="text-yellow-400 pl-2"> GER</span>
+        </div>
+        <!------------mobile nav banner------------------>
+        <div
+          id="menu"
+          class="hidden absolute flex flex-col items-center justify-evenly text-2xl list-none text-white top-0 left-0 h-[40vh] w-full bg-[#020d6378] backdrop-blur-sm shadow-xl"
+        >
+          <i
+            id="closemenu"
+            class="crossBtn ri-twitter-x-line text-[6vw] translate-x-[40vw]"
+          ></i>
+          <a href=" "><li class="hover:text-yellow-300">Home</li></a>
+          <a href=" "><li class="hover:text-yellow-300">About</li></a>
+          <a href=" "><li class="hover:text-yellow-300">Home</li></a>
+        </div>
+        <!---------------mobile nav--------------->
+        <div
+          class="sm:hidden right h-full w-full col-span-6 flex items-center justify-end gap-8 p-2"
+        >
+          <i class="darkmode ri-moon-fill text-2xl text-white"></i>
+          <div id="openmenu">
+            <i class="ri-menu-3-line text-2xl text-white"></i>
+          </div>
+        </div>
+        <!-- ---------------desktop nav----------- -->
+        <div
+          class="hidden col-span-6 disktopmenu sm:flex justify-end gap-[2vw]"
+        >
+          <a
+            href=""
+            class="text-xl font-semibold text-yellow-500 hover:text-white"
+            >Home</a
+          >
+          <a
+            href=""
+            class="text-xl font-semibold text-zinc-300 hover:text-white"
+            >About Us</a
+          >
+          <a
+            href=""
+            class="text-xl font-semibold text-yellow-300 hover:text-white"
+            >Menu</a
+          >
+          <a
+            href=""
+            class="text-xl font-semibold text-zinc-300 hover:text-white"
+            >Review</a
+          >
+          <a
+            href=""
+            class="text-xl font-semibold text-zinc-300 hover:text-white"
+            >Contact</a
+          >
+          <i class="darkmode ri-moon-fill text-2xl text-white"></i>
+        </div>
+      </nav>
+
+      <div id="page1" class="grid grid-cols-12 sm:h-[90vh] min-h-[100%] w-full items-center bg-[#020E63]">
+        <div class="col-span-12 sm:col-span-5 h-full w-full object-cover pt-16">
+          <img src="/public/pngwing.com.png" alt="" />
+        </div>
+        <!-- -------------------------- -->
+        <div class="col-span-12  sm:col-span-7 sm:h-[80%] min-h-[100%]  flex flex-col text-center  sm:items-start  justify-evenly w-full ">
+          <div class="relative top text-white text-[10vw] leading-[8vw] sm:text-[4vw] sm:leading-[3.8vw] font-bold uppercase sm:text-left text-center mb-8">happy tummy with tasty burgers.</div>
+          <span class="absolute h-[2px] w-[24vw] top-[95%]  sm:h-[1px] sm:w-[12vw] translate-x-[150%] sm:top-[40%] bg-yellow-400 sm:my-[-1vw] my-[4vh]"></span>
+          <div class="text-white ">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita id tempora, doloribus voluptas atque saepe vel sunt magnam assumenda eius qui.</p>
+          </div>
+          <div class="mid flex justify-center gap-8 text-xl text-white sm:py-[0vw] py-[9vw]">
+            <div class="flex flex-col items-center ">
+              <i class="ri-restaurant-fill text-yellow-500"></i>
+              <h1>Deliciour</h1>
+            </div>
+            <div class="flex flex-col items-center">
+              <i class="ri-drop-fill text-yellow-500"></i>
+              <h1>Fresh</h1>
+            </div>
+            <div class="flex flex-col items-center">
+              <i class="ri-leaf-fill text-yellow-500"></i>
+              <h1>Organic</h1>
+            </div>
+          </div>
+          <div class="bottom">dd</div>
+        </div>
+      </div>
+    </main>
+
+    <script src="/src/main.js"></script>
+  </body>
+</html>
