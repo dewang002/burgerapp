@@ -11,7 +11,9 @@
     <link href="./output.css" rel="stylesheet" />
   </head>
   <body>
-    <main class="h-[100vh] w-[100vw] bg-[#020E63] sm:overflow-hidden sm:pl-[10vw] sm:pr-[10vw]">
+    <main
+      class="h-[100vh] w-[100vw] bg-[#020E63] sm:overflow-x-hidden sm:pl-[10vw] sm:pr-[10vw]"
+    >
       <nav
         class="h-[10%] sm:h-[6%] w-full sm:w-[100%] mx-auto grid grid-cols-12 rounded items-center justify-between gap-3 relative"
       >
@@ -75,32 +77,120 @@
         </div>
       </nav>
 
-      <div id="page1" class="grid grid-cols-12 sm:h-[90vh] min-h-[100%] w-full items-center bg-[#020E63]">
-        <div class="col-span-12 sm:col-span-5 h-full w-full object-cover pt-16">
-          <img src="/public/pngwing.com.png" alt="" />
+      <div
+        id="page1"
+        class="py-8 grid grid-cols-12 sm:h-[90vh] min-h-[100%] w-full items-center bg-[#020E63]"
+      >
+        <div
+          class="col-span-12 sm:col-span-5 h-full w-full object-cover pt-10 animate-movingY"
+        >
+          <img
+            src="/public/Delicious-big-burger-isolated-on-transparent-background-PNG.png"
+            alt=""
+          />
         </div>
         <!-- -------------------------- -->
-        <div class="col-span-12  sm:col-span-7 sm:h-[80%] min-h-[100%]  flex flex-col text-center  sm:items-start  justify-evenly w-full ">
-          <div class="relative top text-white text-[10vw] leading-[8vw] sm:text-[4vw] sm:leading-[3.8vw] font-bold uppercase sm:text-left text-center mb-8">happy tummy with tasty burgers.</div>
-          <span class="absolute h-[2px] w-[24vw] top-[95%]  sm:h-[1px] sm:w-[12vw] translate-x-[150%] sm:top-[40%] bg-yellow-400 sm:my-[-1vw] my-[4vh]"></span>
-          <div class="text-white ">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita id tempora, doloribus voluptas atque saepe vel sunt magnam assumenda eius qui.</p>
+        <div
+          class="col-span-12 sm:col-span-7 sm:h-[80%] min-h-[100%] flex flex-col text-center sm:items-start justify-start sm:mt-[18vw] w-full"
+        >
+          <div
+            class="relative top text-white text-[10vw] leading-[8vw] sm:text-[4vw] sm:leading-[3.8vw] font-bold uppercase sm:text-left text-center mb-8"
+          >
+            happy tummy with tasty burgers.
+            <span
+              class="absolute h-[2px] w-[24vw] top-[95%] sm:h-[1px] sm:w-[12vw] translate-x-[150%] sm:translate-x-[0%] sm:top-[44%] bg-yellow-400 sm:my-[-1vw] my-[4vh]"
+            ></span>
           </div>
-          <div class="mid flex justify-center gap-8 text-xl text-white sm:py-[0vw] py-[9vw]">
-            <div class="flex flex-col items-center ">
-              <i class="ri-restaurant-fill text-yellow-500"></i>
+          <div class="text-white sm:text-start sm:w-[30vw] sm:mb-[3vw]">
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              id tempora, doloribus voluptas atque saepe vel sunt magnam
+              assumenda eius qui.
+            </p>
+          </div>
+          <div
+            class="mid flex justify-center gap-8 text-xl text-white sm:py-[0vw] py-[9vw] sm:mb-[2vw]"
+          >
+            <div class="flex flex-col items-center">
+              <i class="ri-restaurant-fill text-yellow-500 text-4xl"></i>
               <h1>Deliciour</h1>
             </div>
             <div class="flex flex-col items-center">
-              <i class="ri-drop-fill text-yellow-500"></i>
+              <i class="ri-drop-fill text-yellow-500 text-4xl"></i>
               <h1>Fresh</h1>
             </div>
             <div class="flex flex-col items-center">
-              <i class="ri-leaf-fill text-yellow-500"></i>
+              <i class="ri-leaf-fill text-yellow-500 text-4xl"></i>
               <h1>Organic</h1>
             </div>
           </div>
-          <div class="bottom">dd</div>
+          <div class="bottom">
+            <button class="bg-yellow-400 p-2 text-black rounded text-xl">
+              Learn more
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="page2"
+        class="h-[90vh] sm:h-[24vh] w-full bg-[#020E63] text-white sm:flex sm:gap-4 items-center sm:flex-row"
+      >
+        <div
+          class="h-28 w-[90%] overflow-hidden flex mx-auto rounded-md sm:flex-1 bg-yellow-500"
+        >
+          <div class="h-full w-[40%] relative">
+            <img
+              class="absolute -left-4 -bottom-4"
+              src="/public/vecteezy_beef-burger-cutout_23522925.png"
+              alt=""
+            />
+          </div>
+          <div class="h-full w-[60%] pt-3">
+            <h1 class="font-bold text-xl">Food</h1>
+            <p class="font-semibold text-lg">lorem ipsum dolor sit.</p>
+            <a class="font-semibold text-xl py-2 text-zinc-600" href=""
+              >Buy online</a
+            >
+          </div>
+        </div>
+        <!-- ---------------------- -->
+        <div
+          class="h-28 w-[90%] mt-[8vw] sm:mt-0 overflow-hidden flex mx-auto rounded-md bg-red-500 sm:flex-1"
+        >
+          <div class="h-full w-[40%] py-2 relative">
+            <img
+              class="absolute -left-4 -bottom-4"
+              src="/public/vecteezy_french-fries-png-with-ai-generated_25064817.png"
+              alt=""
+            />
+          </div>
+          <div class="h-full w-[60%] pt-3">
+            <h1 class="font-bold text-xl">Food</h1>
+            <p class="font-semibold text-lg">lorem ipsum dolor sit.</p>
+            <a class="font-semibold text-xl py-2 text-yellow-300" href=""
+              >Buy online</a
+            >
+          </div>
+        </div>
+        <!-- ------------------------- -->
+        <div
+          class="h-28 w-[90%] mt-[8vw] sm:mt-0 overflow-hidden flex mx-auto rounded-md bg-green-700 sm:flex-1"
+        >
+          <div class="h-full w-[40%] relative">
+            <img
+              class="absolute -left-4 -bottom-4"
+              src="/public/vecteezy_fresh-and-cold-soft-drinks-ai-generative_26755602.png"
+              alt=""
+            />
+          </div>
+          <div class="h-full w-[60%] pt-3">
+            <h1 class="font-bold text-xl">Food</h1>
+            <p class="font-semibold text-lg">lorem ipsum dolor sit.</p>
+            <a class="font-semibold text-xl py-2 text-yellow-300" href=""
+              >Buy online</a
+            >
+          </div>
         </div>
       </div>
     </main>
