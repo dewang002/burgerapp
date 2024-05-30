@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.category button.active{
+    @apply bg-yellow-400 text-black font-bold
+}

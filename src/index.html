@@ -15,7 +15,7 @@
       class="h-[100vh] w-[100vw] bg-[#020E63] sm:overflow-x-hidden sm:pl-[10vw] sm:pr-[10vw]"
     >
       <nav
-        class="h-[10%] sm:h-[6%] w-full sm:w-[100%] mx-auto grid grid-cols-12 rounded items-center justify-between gap-3 relative"
+        class="h-[10%] z-[999] sm:h-[6%] w-full sm:w-[100%] mx-auto grid grid-cols-12 rounded items-center justify-between gap-3 relative"
       >
         <div
           class="left h-full w-full col-span-6 flex items-center text-white font-semibold text-3xl justify-start p-2"
@@ -76,7 +76,7 @@
           <i class="darkmode ri-moon-fill text-2xl text-white"></i>
         </div>
       </nav>
-
+      <!-- --------------------------------------------------------------- -->
       <div
         id="page1"
         class="py-8 grid grid-cols-12 sm:h-[90vh] min-h-[100%] w-full items-center bg-[#020E63]"
@@ -85,6 +85,7 @@
           class="col-span-12 sm:col-span-5 h-full w-full object-cover pt-10 animate-movingY"
         >
           <img
+            class="z-10"
             src="/public/Delicious-big-burger-isolated-on-transparent-background-PNG.png"
             alt=""
           />
@@ -98,7 +99,7 @@
           >
             happy tummy with tasty burgers.
             <span
-              class="absolute h-[2px] w-[24vw] top-[95%] sm:h-[1px] sm:w-[12vw] translate-x-[150%] sm:translate-x-[0%] sm:top-[44%] bg-yellow-400 sm:my-[-1vw] my-[4vh]"
+              class="absolute h-[2px] w-[24vw] top-[95%] sm:h-[1px] sm:w-[12vw] translate-x-[-150%] sm:translate-x-[-265%] sm:my-[2%] bg-yellow-400 my-[4vh]"
             ></span>
           </div>
           <div class="text-white sm:text-start sm:w-[30vw] sm:mb-[3vw]">
@@ -125,13 +126,15 @@
             </div>
           </div>
           <div class="bottom">
-            <button class="bg-yellow-400 p-2 text-black rounded text-xl">
+            <button
+              class="bg-yellow-400 hover:bg-yellow-600 p-2 text-black rounded text-xl"
+            >
               Learn more
             </button>
           </div>
         </div>
       </div>
-
+      <!-- --------------------------------------------------------------- -->
       <div
         id="page2"
         class="h-[90vh] sm:h-[24vh] w-full bg-[#020E63] text-white sm:flex sm:gap-4 items-center sm:flex-row"
@@ -193,6 +196,288 @@
           </div>
         </div>
       </div>
+      <!-- ---------------------------------------------------------------- -->
+      <div
+        id="page3"
+        class="bg-[#020E63] sm:flex gap-12 w-[100%] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%] min-h-[40vh] pb-8"
+      >
+        <div
+          id="card1"
+          class="bg-[#00127F] sm:flex sm:flex-row sm:justify-between sm:items-center h-[72vh] w-full sm:h-[30vh] sm:w-[80%] shadow-md p-2 mb-8"
+        >
+          <div class="h-[50%] w-full">
+            <img
+              class="translate-y-[-20%] sm:translate-x-[15%] sm:w-[80%] sm:hover:scale-[1.1] duration-100"
+              src="/public/Fresh_beef_burger_isolated_-1-removebg-preview.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="text-yellow-400 font-medium mb-4">PayDay promo</p>
+            <h1 class="text-2xl text-white font-black leading-5 mb-4">
+              Get 10% Discount on PayDay Week
+            </h1>
+            <p class="text-light text-white leading-5 mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              doloribus ab corrupti!
+            </p>
+            <p class="text-yellow-400 font-medium">Buy Online</p>
+          </div>
+        </div>
+        <div
+          id="card2"
+          class="bg-[#00127F] sm:flex sm:flex-row sm:justify-between sm:items-center h-[72vh] w-full sm:h-[30vh] sm:w-[80%] shadow-md p-2"
+        >
+          <div class="h-[50%] w-full">
+            <img
+              class="translate-y-[-20%] sm:translate-x-[15%] sm:w-[80%] sm:hover:scale-[1.1] duration-100"
+              src="/public/drink.png"
+              alt=""
+            />
+          </div>
+          <div>
+            <p class="text-yellow-400 font-medium mb-4">PayDay promo</p>
+            <h1 class="text-2xl text-white font-black leading-5 mb-4">
+              Get 10% Discount on PayDay Week
+            </h1>
+            <p class="text-light text-white leading-5 mb-2">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+              doloribus ab corrupti!
+            </p>
+            <p class="text-yellow-400 font-medium">Buy Online</p>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------- -->
+      <div id="page4"
+        class="min-h-[100vh] sm:flex sm:flex-col justify-center items-center pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%] relative sm:min-h-[10vh] w-[100%] bg-[#020E63] sm:pb-20 pb-4 overflow-hidden"
+      >
+        <div class="h-56 w-full rounded-md overflow-hidden">
+          <img
+            class="h-full w-full object-cover"
+            src="/public/sk-uVPV_nV17Tw-unsplash.jpg"
+            alt=""
+          />
+        </div>
+        <div class="text-white text-3xl font-black tracking-tight pt-11 pb-11">
+          <h1 class="">
+            FIND FOOD AND DRINKS , ALL-IN-ONE PLACE FOR YOUR BEST TASTE
+          </h1>
+          <span
+            class="absolute h-[2px] w-[28vw] sm:h-[1px] sm:w-[9.5vw] translate-x-[1%] sm:translate-x-0 sm:translate-y-[-150%] translate-y-4 bg-yellow-400"
+          ></span>
+        </div>
+
+        <div class="text-zinc-400 sm:w-[50%] sm:text-center">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            iste hic officiis illum consequatur accusantium corrupti, voluptates
+            ad enim praesentium!
+          </p>
+        </div>
+        <div class="text-white">
+          <ul class="grid grid-cols-2 sm:text-4xl font-bold">
+            <li class="sm:px-28">
+              <i class="ri-check-line text-2xl sm:text-3xl text-yellow-400"></i>
+              Best Price
+            </li>
+            <li class="sm:px-28">
+              <i class="ri-check-line text-2xl sm:text-3xl text-yellow-400"></i>
+              Best Service
+            </li>
+            <li class="sm:px-28">
+              <i class="ri-check-line text-2xl sm:text-3xl text-yellow-400"></i>
+              Fresh Ingredient
+            </li>
+            <li class="sm:px-28">
+              <i class="ri-check-line text-2xl sm:text-3xl text-yellow-400"></i>
+              Health Protocol
+            </li>
+          </ul>
+
+          <button
+            class="px-4 sm:translate-x-[30vw] py-2 rounded-md bg-yellow-400 text-black font-semibold mt-4"
+          >
+            About Us
+          </button>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------- -->
+      <div id="page5" class=" min-h-[100%] sm:overflow-hidden pb-10 w-full bg-[#020E63] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%]" >
+        <div class="leading-loose relative flex flex-col items-center justify-end mb-[10vh]">
+          <h1 class=" text-white font-black text-3xl text-center sm:underline sm:decoration-yellow-400">
+            OUR BEST MENU
+          </h1>
+          <span
+            class="absolute h-[2px] w-[30vw] sm:h-[1px] sm:w-[9.5vw] translate-x-[-5vw] sm:hidden sm:translate-y-[-100vw] translate-y-4 bg-yellow-400"
+          ></span>
+        </div>
+        <div class="text-zinc-500 text-center">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+            ipsum deserunt autem pariatur repellat aliquam, quis provident earum
+            architecto ab, voluptatum sequi maxime nam fugit! A consequuntur
+            autem officia voluptatum.
+          </p>
+        </div>
+
+        <div
+          class="category flex flex-wrap justify-center gap-3 text-white pb-6">
+          <button
+            id="all" 
+            data="all"
+            class=" active bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            All
+          </button>
+          <button
+            id="snaks" 
+            data="snaks"
+            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            Snaks
+          </button>
+          <button
+            id="food" 
+            data="food"
+            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            Food
+          </button>
+          <button
+            id="beverage" 
+            data="beverage"
+            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            Beverage
+          </button>
+        </div>
+      
+        <div class=" sm:grid sm:grid-cols-3 cards flex flex-col gap-8">
+
+<!-- -----burger -->
+           <div  id="card1" class="showall food h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden">
+            <div class="relative h-[50%] w-full">
+              <img
+                class="translate-y-[-30%] object-cover"
+                src="/public/burger-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+              <h1 class="text-2xl font-bold text-white">
+                Royal checken burger
+              </h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div> 
+          
+          <div  id="card2"
+            class="showall food h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] w-full">
+              <img
+                class="translate-y-[-30%] object-cover"
+                src="/public/burger-removebg-preview.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+              <h1 class="text-2xl font-bold text-white">
+                Royal checken burger
+              </h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+<!-- ------snaks -->
+          <div  id="card3"
+            class="showall snak h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[-2%] object-cover w-40"
+                src="/public/fries.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+          
+          <div  id="card4"
+            class="showall snak h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[-2%] object-cover w-40"
+                src="/public/fries.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+<!-- ------burger -->
+          <div id="card5"
+            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[0%] object-cover w-40"
+                src="/public/beverage.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] text-center sm:flex sm:flex-col sm:justify-evenly sm:items-center w-full">
+              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+         
+          <div id="card6"
+            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[0%] object-cover w-40"
+                src="/public/beverage.png"
+                alt=""
+              />
+            </div>
+            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      
     </main>
 
     <script src="/src/main.js"></script>
