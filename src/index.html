@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Burger</title>
+
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link href="./output.css" rel="stylesheet" />
   </head>
@@ -249,7 +254,8 @@
         </div>
       </div>
       <!-- ---------------------------------------------------------------- -->
-      <div id="page4"
+      <div
+        id="page4"
         class="min-h-[100vh] sm:flex sm:flex-col justify-center items-center pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%] relative sm:min-h-[10vh] w-[100%] bg-[#020E63] sm:pb-20 pb-4 overflow-hidden"
       >
         <div class="h-56 w-full rounded-md overflow-hidden">
@@ -303,9 +309,16 @@
         </div>
       </div>
       <!-- ---------------------------------------------------------------- -->
-      <div id="page5" class=" min-h-[100%] sm:overflow-hidden pb-10 w-full bg-[#020E63] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%]" >
-        <div class="leading-loose relative flex flex-col items-center justify-end mb-[10vh]">
-          <h1 class=" text-white font-black text-3xl text-center sm:underline sm:decoration-yellow-400">
+      <div
+        id="page5"
+        class="min-h-[100%] sm:overflow-hidden pb-10 w-full bg-[#020E63] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%]"
+      >
+        <div
+          class="leading-loose relative flex flex-col items-center justify-end mb-[10vh]"
+        >
+          <h1
+            class="text-white font-black text-3xl text-center sm:underline sm:decoration-yellow-400"
+          >
             OUR BEST MENU
           </h1>
           <span
@@ -322,37 +335,44 @@
         </div>
 
         <div
-          class="category flex flex-wrap justify-center gap-3 text-white pb-6">
+          class="category flex flex-wrap justify-center gap-3 text-white pb-6"
+        >
           <button
-            id="all" 
+            id="all"
             data="all"
-            class=" active bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            class="active bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md"
+          >
             All
           </button>
           <button
-            id="snaks" 
+            id="snaks"
             data="snaks"
-            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            class="bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md"
+          >
             Snaks
           </button>
           <button
-            id="food" 
+            id="food"
             data="food"
-            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            class="bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md"
+          >
             Food
           </button>
           <button
-            id="beverage" 
+            id="beverage"
             data="beverage"
-            class=" bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md">
+            class="bg-[#000F69] py-4 px-6 rounded-md drop-shadow-md"
+          >
             Beverage
           </button>
         </div>
-      
-        <div class=" sm:grid sm:grid-cols-3 cards flex flex-col gap-8">
 
-<!-- -----burger -->
-           <div  id="card1" class="showall food h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden">
+        <div class="sm:grid sm:grid-cols-3 cards flex flex-col gap-8">
+          <!-- -----burger -->
+          <div
+            id="card1"
+            class="showall food h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
             <div class="relative h-[50%] w-full">
               <img
                 class="translate-y-[-30%] object-cover"
@@ -360,7 +380,9 @@
                 alt=""
               />
             </div>
-            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+            <div
+              class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full"
+            >
               <h1 class="text-2xl font-bold text-white">
                 Royal checken burger
               </h1>
@@ -370,9 +392,10 @@
               </p>
               <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
             </div>
-          </div> 
-          
-          <div  id="card2"
+          </div>
+
+          <div
+            id="card2"
             class="showall food h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
           >
             <div class="h-[50%] w-full">
@@ -382,7 +405,9 @@
                 alt=""
               />
             </div>
-            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+            <div
+              class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full"
+            >
               <h1 class="text-2xl font-bold text-white">
                 Royal checken burger
               </h1>
@@ -393,8 +418,9 @@
               <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
             </div>
           </div>
-<!-- ------snaks -->
-          <div  id="card3"
+          <!-- ------snaks -->
+          <div
+            id="card3"
             class="showall snak h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
           >
             <div class="h-[50%] relative flex justify-center w-full">
@@ -404,67 +430,9 @@
                 alt=""
               />
             </div>
-            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
-              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
-              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                reiciendis quibusdam eligendi.
-              </p>
-              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
-            </div>
-          </div>
-          
-          <div  id="card4"
-            class="showall snak h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
-          >
-            <div class="h-[50%] relative flex justify-center w-full">
-              <img
-                class="translate-y-[-2%] object-cover w-40"
-                src="/public/fries.png"
-                alt=""
-              />
-            </div>
-            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
-              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
-              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                reiciendis quibusdam eligendi.
-              </p>
-              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
-            </div>
-          </div>
-<!-- ------burger -->
-          <div id="card5"
-            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
-          >
-            <div class="h-[50%] relative flex justify-center w-full">
-              <img
-                class="translate-y-[0%] object-cover w-40"
-                src="/public/beverage.png"
-                alt=""
-              />
-            </div>
-            <div class="h-[50%] text-center sm:flex sm:flex-col sm:justify-evenly sm:items-center w-full">
-              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
-              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
-                reiciendis quibusdam eligendi.
-              </p>
-              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
-            </div>
-          </div>
-         
-          <div id="card6"
-            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
-          >
-            <div class="h-[50%] relative flex justify-center w-full">
-              <img
-                class="translate-y-[0%] object-cover w-40"
-                src="/public/beverage.png"
-                alt=""
-              />
-            </div>
-            <div class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full">
+            <div
+              class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full"
+            >
               <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
               <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
@@ -474,11 +442,363 @@
             </div>
           </div>
 
+          <div
+            id="card4"
+            class="showall snak h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[-2%] object-cover w-40"
+                src="/public/fries.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full"
+            >
+              <h1 class="text-2xl font-bold text-white">Fries Burst</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+          <!-- ------burger -->
+          <div
+            id="card5"
+            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[0%] object-cover w-40"
+                src="/public/beverage.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="h-[50%] text-center sm:flex sm:flex-col sm:justify-evenly sm:items-center w-full"
+            >
+              <h1 class="text-2xl font-bold text-white">cherry ment</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+
+          <div
+            id="card6"
+            class="showall beverages h-[50vh] w-full bg-[#000F72] rounded-sm overflow-hidden"
+          >
+            <div class="h-[50%] relative flex justify-center w-full">
+              <img
+                class="translate-y-[0%] object-cover w-40"
+                src="/public/beverage.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="h-[50%] sm:flex sm:flex-col sm:justify-evenly sm:items-center text-center w-full"
+            >
+              <h1 class="text-2xl font-bold text-white">cheery ment moheto</h1>
+              <p class="text-zinc-400 sm:w-[80%] pb-[3%]">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                reiciendis quibusdam eligendi.
+              </p>
+              <h2 class="text-xl font-light text-yellow-400">$42.00</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------- card slider-->
+      <div
+        id="page6"
+        class="min-h-[100%] sm:min-h-[40vh] sm:overflow-hidden pb-10 w-full bg-[#00127F] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%]"
+      >
+        <div
+          class="leading-loose relative flex flex-col items-center justify-end mb-[10vh]"
+        >
+          <h1
+            class="uppercase text-white font-black text-2xl sm:text-4xl text-center sm:underline sm:decoration-yellow-400"
+          >
+            Customer Review
+          </h1>
+          <span
+            class="absolute h-[2px] w-[30vw] sm:h-[1px] sm:w-[9.5vw] translate-x-[-5vw] sm:hidden sm:translate-y-[-100vw] translate-y-4 bg-yellow-400"
+          ></span>
+        </div>
+        <div class="text-zinc-500 text-center pb-8">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa
+            ipsum deserunt autem pariatur repellat aliquam, quis provident earum
+            architecto ab, voluptatum sequi maxime nam fugit! A consequuntur
+            autem officia voluptatum.
+          </p>
+        </div>
+        <!-- -------------card----------- -->
+        <!-- Slider main container -->
+        <div class="swiper py-20">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div
+                class="flex flex-col gap-5 bg-primaryColor bg-[#020E63] rounded-lg p-6"
+              >
+                <p class="paragraph text-white font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique culpa ut amet voluptas asperiores alias sed
+                  consequatur.
+                </p>
+                <div class="flex items-center">
+                  <img
+                    src="/public/review1.png"
+                    alt="review image"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase" text-white font-semibold>
+                      John doe
+                    </p>
+                    <p class="paragraph text-zinc-400">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div
+                class="flex flex-col gap-5 bg-primaryColor bg-[#020E63] rounded-lg p-6"
+              >
+                <p class="paragraph text-white font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique culpa ut amet voluptas asperiores alias sed
+                  consequatur.
+                </p>
+                <div class="flex items-center">
+                  <img
+                    src="/public/review1.png"
+                    alt="review image"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase text-white font-semibold">
+                      John doe
+                    </p>
+                    <p class="paragraph text-zinc-400">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div
+                class="flex flex-col gap-5 bg-primaryColor bg-[#020E63] rounded-lg p-6"
+              >
+                <p class="paragraph text-white font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique culpa ut amet voluptas asperiores alias sed
+                  consequatur.
+                </p>
+                <div class="flex items-center">
+                  <img
+                    src="/public/review1.png"
+                    alt="review image"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase text-white font-semibold">
+                      John doe
+                    </p>
+                    <p class="paragraph text-zinc-400">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div
+                class="flex flex-col gap-5 bg-primaryColor bg-[#020E63] rounded-lg p-6"
+              >
+                <p class="paragraph text-white font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique culpa ut amet voluptas asperiores alias sed
+                  consequatur.
+                </p>
+                <div class="flex items-center">
+                  <img
+                    src="/public/review1.png"
+                    alt="review image"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase text-white font-semibold">
+                      John doe
+                    </p>
+                    <p class="paragraph text-zinc-400">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="swiper-slide">
+              <div
+                class="flex flex-col gap-5 bg-primaryColor bg-[#020E63] rounded-lg p-6"
+              >
+                <p class="paragraph text-white font-semibold">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique culpa ut amet voluptas asperiores alias sed
+                  consequatur.
+                </p>
+                <div class="flex items-center">
+                  <img
+                    src="/public/review1.png"
+                    alt="review image"
+                    class="w-12 h-12 rounded-full"
+                  />
+                  <div class="ml-2">
+                    <p class="font-oswald uppercase text-white font-semibold">
+                      John doe
+                    </p>
+                    <p class="paragraph text-zinc-400">Designer</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <div class="swiper-pagination"></div>
+        </div>
+        <!-- ------------------------------- -->
+      </div>
+      <!-- ---------------------------------------------  -->
+      <div
+        id="page7"
+        class="h-[45vh] sm:h-[24vh] w-full bg-[#FFC300] p-2 flex flex-col sm:flex-row sm:items-center sm:justify-center justify-center gap-2"
+      >
+        <div class="h-[30%] sm:h-[50%] w-full pb-2">
+          <h1 class="text-3xl font-bold tracking-tighter">
+            GET EXCLUSIVE UPDATE
+          </h1>
+          <p class="text-white">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
+            perferendis laborum? Accusantium!
+          </p>
+        </div>
+        <div class="h-[50%] w-full flex flex-col sm:flex-row gap-2">
+          <input
+            class="w-full h-10 rounded outline-none"
+            placeholder=" Email-address"
+            type="email"
+            name="email"
+          />
+          <button class="w-full sm:h-10 p-2 bg-black text-white rounded">
+            <i class="ri-send-plane-fill text-white px-2"></i>Subscribe
+          </button>
+        </div>
+      </div>
+      <!-- ------------------------------------------------------- -->
+      <div
+        id="page8"
+        class="min-h-[100vh] sm:min-h-[30vh] sm:grid sm:grid-cols-4 w-full bg-[#00127F] pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[4%]"
+      >
+        <div class="h-[40%] w-full flex flex-col gap-10">
+          <h1 class="text-4xl font-bold text-white pt-8">
+            BUR <span class="text-yellow-400">GER</span>
+          </h1>
+          <p class="text-zinc-300 font-semibold">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum,
+            delectus!
+          </p>
+        </div>
+
+        <div class="h-[40%] w-full flex flex-col gap-5">
+          <h1 class="text-3xl font-bold text-white pt-8">SUPPORT</h1>
+          <ul class="text-white font-semibold">
+            <li>FAQ's</li>
+            <li>Privacy Policy</li>
+            <li>Term & Condition</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="h-[40%] w-full flex flex-col gap-5">
+          <h1 class="text-3xl font-bold text-white pt-5">Phone no</h1>
+          <p class="text-white text-xl">
+            <i class="ri-phone-fill"></i> +1 646 980 4741
+          </p>
+        </div>
+
+        <div>
+          <div>
+            <h1 class="text-4xl font-bold text-white pt-8">ADDRESS</h1>
+            <p class="text-zinc-300 font-semibold W-[50%]">
+              <i class="ri-map-pin-2-fill text-yellow-400"></i>Lorem ipsum dolor
+              sit amet.
+            </p>
+          </div>
+          <div>
+            <h1 class="text-4xl font-bold text-white pt-8">Follow Us</h1>
+            <div class="flex gap-4 pt-3">
+              <a href=""
+                ><i class="ri-twitter-fill text-2xl text-yellow-400"></i
+              ></a>
+              <a href=""
+                ><i class="ri-instagram-fill text-2xl text-yellow-400"></i
+              ></a>
+              <a href=""></a>
+            </div>
+          </div>
         </div>
       </div>
 
-      
+      <div
+        id="copywrite"
+        class="bg-[#00127F] pt-8 min-h-[20vh] sm:min-h-[8vh] w-full pr-[10%] sm:pr-[0] pl-[10%] sm:pl-[0%]"
+      >
+        <p class="text-center text-white leading-3">
+          © Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+          consequatur optio.
+        </p>
+      </div>
+   <!-- -------------------circle---------------------- -->
+       <a href="" class="fixed bottom-4 left-[92vw] moveup">
+        <div class="h-10 w-10 bg-yellow-400 rounded-full flex items-center justify-center hover:scale-105 duration-100"><i class="ri-arrow-up-line text-black text-lg font-semibold"></i></div>
+       </a>
+   <!-- ------------------------------------------------ -->
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        speed: 400,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+        // If we need pagination
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        grabCursor: true,
+        breakpoints: {
+          // when window width is >= 640px
+          640: {
+            slidesPerView: 1,
+          },
+          // when window width is >= 768px
+          768: {
+            slidesPerView: 2,
+          },
+          // when window width is >= 1024px
+          1024: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
 
     <script src="/src/main.js"></script>
   </body>
