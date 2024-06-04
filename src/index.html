@@ -14,8 +14,10 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <link href="./output.css" rel="stylesheet" />
+
+
   </head>
-  <body>
+  <body class="sm:overflow-hidden">
     <main
       class="h-[100vh] w-[100vw] bg-[#020E63] sm:overflow-x-hidden sm:pl-[10vw] sm:pr-[10vw]"
     >
@@ -36,9 +38,9 @@
             id="closemenu"
             class="crossBtn ri-twitter-x-line text-[6vw] translate-x-[40vw]"
           ></i>
-          <a href=" "><li class="hover:text-yellow-300">Home</li></a>
-          <a href=" "><li class="hover:text-yellow-300">About</li></a>
-          <a href=" "><li class="hover:text-yellow-300">Home</li></a>
+          <a href="#page1"><li class="hover:text-yellow-300">Home</li></a>
+          <a href="#page3"><li class="hover:text-yellow-300">About</li></a>
+          <a href="#page4"><li class="hover:text-yellow-300">menu</li></a>
         </div>
         <!---------------mobile nav--------------->
         <div
@@ -761,11 +763,15 @@
           consequatur optio.
         </p>
       </div>
-   <!-- -------------------circle---------------------- -->
-       <a href="" class="fixed bottom-4 left-[92vw] moveup">
-        <div class="h-10 w-10 bg-yellow-400 rounded-full flex items-center justify-center hover:scale-105 duration-100"><i class="ri-arrow-up-line text-black text-lg font-semibold"></i></div>
-       </a>
-   <!-- ------------------------------------------------ -->
+      <!-- -------------------circle---------------------- -->
+      <a href="#page1" id="" class="moveup bottom-4 fixed sm:left-[92vw] left-[88vw] ease-in duration-200">
+        <div
+          class="h-10 w-10 bg-yellow-400 rounded-full flex items-center justify-center hover:scale-105 duration-100"
+        >
+          <i class="ri-arrow-up-line text-black text-lg font-semibold"></i>
+        </div>
+      </a>
+      <!-- ------------------------------------------------ -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

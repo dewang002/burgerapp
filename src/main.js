@@ -1,7 +1,8 @@
 const openmenu = document.querySelector("#openmenu");
 const closemenu = document.querySelector("#closemenu");
 const menuoptions = document.querySelector("#menu");
-const scrollup =  document.querySelector(".moveup")
+const scrollbtn = document.querySelector("moveup");
+console.log(scrollbtn)
 openmenu.addEventListener("click", () => {
   menuoptions.classList.remove("hidden");
 });
@@ -37,12 +38,3 @@ category.forEach((elem) => {
     }
   });
 });
-
-const scroll=()=>{
-  if(this.screenY>=250){
-    scrollup.style.display="block";
-    
-  }
-}
-
- window.addEventListener("scroll",scroll)

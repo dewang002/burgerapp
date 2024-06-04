@@ -608,8 +608,16 @@ video {
   left: -1rem;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
 .left-0 {
   left: 0px;
+}
+
+.left-\[92vw\] {
+  left: 92vw;
 }
 
 .top-0 {
@@ -620,32 +628,20 @@ video {
   top: 95%;
 }
 
-.bottom-4 {
-  bottom: 1rem;
+.left-\[62vw\] {
+  left: 62vw;
 }
 
-.right-4 {
-  right: 1rem;
+.left-\[72vw\] {
+  left: 72vw;
 }
 
-.right-\[\] {
-  right: ;
+.left-\[82vw\] {
+  left: 82vw;
 }
 
-.right-\[90vw\] {
-  right: 90vw;
-}
-
-.left-\[90vw\] {
-  left: 90vw;
-}
-
-.left-\[95vw\] {
-  left: 95vw;
-}
-
-.left-\[92vw\] {
-  left: 92vw;
+.left-\[88vw\] {
+  left: 88vw;
 }
 
 .z-10 {
@@ -662,10 +658,6 @@ video {
 
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-
-.col-span-3 {
-  grid-column: span 3 / span 3;
 }
 
 .mx-auto {
@@ -746,10 +738,6 @@ video {
   height: 100vh;
 }
 
-.h-\[10vh\] {
-  height: 10vh;
-}
-
 .h-\[2px\] {
   height: 2px;
 }
@@ -798,16 +786,16 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[20vh\] {
+  min-height: 20vh;
+}
+
 .min-h-\[40vh\] {
   min-height: 40vh;
 }
 
-.min-h-\[10vh\] {
-  min-height: 10vh;
-}
-
-.min-h-\[20vh\] {
-  min-height: 20vh;
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-12 {
@@ -852,10 +840,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
 }
 
 .translate-x-\[-150\%\] {
@@ -1342,18 +1326,20 @@ video {
   transition-duration: 100ms;
 }
 
+.duration-200 {
+  transition-duration: 200ms;
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
 .category button.active {
   --tw-bg-opacity: 1;
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
-.hover\:scale-50:hover {
-  --tw-scale-x: .5;
-  --tw-scale-y: .5;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:scale-105:hover {
@@ -1378,6 +1364,22 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:left-\[\] {
+    left: ;
+  }
+
+  .sm\:left-\[80vw\] {
+    left: 80vw;
+  }
+
+  .sm\:left-\[70vw\] {
+    left: 70vw;
+  }
+
+  .sm\:left-\[92vw\] {
+    left: 92vw;
+  }
+
   .sm\:col-span-5 {
     grid-column: span 5 / span 5;
   }
@@ -1451,32 +1453,12 @@ video {
     height: 90vh;
   }
 
-  .sm\:h-\[\] {
-    height: ;
-  }
-
-  .sm\:h-\[40\] {
-    height: 40;
-  }
-
-  .sm\:h-\[40vh\] {
-    height: 40vh;
-  }
-
-  .sm\:h-\[8vh\] {
-    height: 8vh;
-  }
-
   .sm\:min-h-\[10vh\] {
     min-height: 10vh;
   }
 
   .sm\:min-h-\[30vh\] {
     min-height: 30vh;
-  }
-
-  .sm\:min-h-\[\] {
-    min-height: ;
   }
 
   .sm\:min-h-\[40vh\] {
@@ -1549,10 +1531,6 @@ video {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
-  .sm\:grid-cols-12 {
-    grid-template-columns: repeat(12, minmax(0, 1fr));
-  }
-
   .sm\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1619,24 +1597,16 @@ video {
     padding-left: 10vw;
   }
 
+  .sm\:pl-\[4\%\] {
+    padding-left: 4%;
+  }
+
   .sm\:pr-\[0\] {
     padding-right: 0;
   }
 
   .sm\:pr-\[10vw\] {
     padding-right: 10vw;
-  }
-
-  .sm\:pr-\[4vw\] {
-    padding-right: 4vw;
-  }
-
-  .sm\:pl-\[10\%\] {
-    padding-left: 10%;
-  }
-
-  .sm\:pl-\[4\%\] {
-    padding-left: 4%;
   }
 
   .sm\:text-left {
